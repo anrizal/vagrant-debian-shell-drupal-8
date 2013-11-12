@@ -58,7 +58,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.network :private_network, ip: IP
 
   # Configure shared/synced folder. we do not use NFS for Windows Host
-    config.vm.synced_folder HOST_FOLDER, GUEST_FOLDER, id: "vagrant-root", nfs: true
+    config.vm.synced_folder HOST_FOLDER, GUEST_FOLDER, id: "vagrant-root", nfs: false
 
   # Provision
     config.vm.provision :shell, :path=> SHELL_PATH
