@@ -5,7 +5,7 @@ vagrant setup for drupal 8 environment in debian-based server using shell.
 
 Details
 ============================
-Host OS: Non Windows
+Host OS: Windows
 Provider: Virtual Box
 Vagrant: Vagrant 1.3.3
 Vagrant API: Version 2

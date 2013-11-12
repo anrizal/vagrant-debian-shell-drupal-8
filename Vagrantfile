@@ -3,7 +3,7 @@
 # vagrant file
 #
 # This vagrant file is intended for
-# Host OS: non - Windows
+# Host OS: Windows
 # Provider: Virtual Box
 # Vagrant: Vagrant 1.3.3
 # Vagrant API: Version 2
