@@ -4,7 +4,7 @@
 
 # provision.sh
 #
-# This script will provision a clean Ubuntu 12.04 LTS 64bit Vagrant box to be
+# This script will provision a clean Ubuntu 12.04 LTS 32bit Vagrant box to be
 # used for drupal 8 development.
 # 
 # Author: Arradi Nur Rizal
