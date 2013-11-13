@@ -143,7 +143,7 @@ sudo chown -R vagrant:vagrant /opt/drush-$DRUSH_VERSION
 # add drush to /usr/sbin 
 sudo ln -s /opt/drush-$DRUSH_VERSION/drush /usr/sbin
 # remove the downloaded tarbal 
-sudo rm -rf /home/vagrant/sites/$DRUSH_VERSION.tar.gz  
+sudo rm -rf /home/vagrant/$DRUSH_VERSION.tar.gz  
 
 
 #====================================CONFIGURATION=============================
