@@ -50,7 +50,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # We set the vm's memory, enable ioapic, set natdnsresolver
     config.vm.provider "virtualbox" do |vb|
         vb.customize ["modifyvm", :id, "--memory", MEMORY]
-	#vb.customize ["modifyvm", :id, "--ioapic", "on"]
+	vb.customize ["modifyvm", :id, "--ioapic", "on"]
         vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     end    
 
