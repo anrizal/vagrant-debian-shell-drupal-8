@@ -75,7 +75,7 @@ echo "[provisioning] Installing development environment.........."
 
 # Code editor tools
 echo "[provisioning] Installing vim.........."
-sudo apt-get install vim
+sudo apt-get install -y vim
 
 # Version control tools
 echo "[provisioning] Installing git.........."
