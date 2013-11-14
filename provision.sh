@@ -73,6 +73,10 @@ sudo apt-get install -y nfs-common
 # Install development package for development environment
 echo "[provisioning] Installing development environment.........."
 
+# Code editor tools
+echo "[provisioning] Installing vim.........."
+sudo apt-get install -y vim
+
 # Version control tools
 echo "[provisioning] Installing git.........."
 sudo apt-get install -y git # GIT
