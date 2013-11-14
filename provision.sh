@@ -131,6 +131,7 @@ sudo apt-get install -y php5-dev
 sudo a2enmod ssl 
 sudo apt-get install -y unzip 
 sudo apt-get install -y nano # Nano
+sudo apt-get install -y vim # vim
 
 # Install Drush by wget
 echo "[provisioning] Installing drush..."
