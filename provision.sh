@@ -144,6 +144,10 @@ sudo chown -R vagrant:vagrant /opt/drush-$DRUSH_VERSION
 sudo ln -s /opt/drush-$DRUSH_VERSION/drush /usr/sbin
 # remove the downloaded tarbal 
 sudo rm -rf /home/vagrant/sites/$DRUSH_VERSION.tar.gz  
+# put disable_functions
+mkdir .drush && cd /home/vagrant/.drush && touch drush.ini && echo 'disable_functions =' > drush.ini
+# set permission for .drush
+sudo chown vagrant /home/vagrant/.drush && sudo chown vagrant /home/vagrant/.drush/drush.ini && sudo chgrp vagrant /home/vagrant/.drush && sudo chgrp vagrant /home/vagrant/.drush/drush.ini 
 
 
 #====================================CONFIGURATION=============================
