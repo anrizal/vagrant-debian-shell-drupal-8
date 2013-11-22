@@ -29,7 +29,7 @@ LOCALE_CODESET="en_US.UTF-8"
 TIMEZONE="Asia/Jakarta"
 
 # Drush will be downloaded from drupal.org
-DRUSH_VERSION="8.x-6.0-rc4"
+DRUSH_VERSION="master"
 
 #=============================END CONFIGURATION=================================
 
